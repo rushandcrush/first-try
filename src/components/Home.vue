@@ -1,33 +1,37 @@
 <template>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <app-car-main></app-car-main>
-                <div class="row">
-                    <div class="col-md-7" style="margin-top:35px">
-                      <h3 class="text-alli">
-                        We can make your online business<br>
-                        easy & usable for all walks of people
-                      </h3>
-                    </div>
-                    <div 
-                          class="col-md-5 text-right" 
-                          style="padding:0;
-                                margin-top:20px">                      
-                              <a href="/">
-                                  <button>
-                                      <img src="./img/Button/butt21.png">
-                                  </button>
-                              </a>                        
-                    </div>      
-                </div>        
-            <app-inline></app-inline>          
-        </div> 
-              <div>
-                    <app-col36></app-col36>
-              </div>               
-    </div>    
-</div>  
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <app-car-main></app-car-main>
+                    <div class="row">
+                        <div 
+                                class="col-md-7" 
+                                style="margin-top:35px"
+                                >
+                            <h3 class="text-alli">
+                                We can make your online business<br>
+                                easy & usable for all walks of people
+                            </h3>
+                        </div>
+                        <div 
+                            class="col-md-5 text-right" 
+                            style=" padding:0;
+                                    margin-top:20px"
+                                    >                      
+                                <a href="/">
+                                    <button>
+                                        <img src="./img/Button/butt21.png">
+                                    </button>
+                                </a>                        
+                        </div>      
+                    </div>        
+                <app-inline></app-inline>          
+            </div> 
+                <div>
+                        <app-col36></app-col36>
+                </div>               
+        </div>    
+    </div>  
 </template>
 
 <script>
