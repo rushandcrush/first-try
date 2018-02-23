@@ -5,6 +5,7 @@
         <app-portfolio-car></app-portfolio-car>
         <app-design-line></app-design-line>
         <app-waxom-idea></app-waxom-idea>
+        <app-navigation></app-navigation>
       </div>      
     </div>
   </div>
@@ -15,6 +16,7 @@
 import PortfolioCar from './PortfolioComp/PortfolioCar/PortfolioCar.vue';
 import DesignLine from './PortfolioComp/DesignBlock/DesignLine.vue';
 import WaxomIdea from './PortfolioComp/WaxomIdeas/WaxomIdea';
+import Navigation from './PortfolioComp/ButtonGroup/Navigation.vue'
 export default {
     data() {
       return {
@@ -24,7 +26,8 @@ export default {
     components: {
       appPortfolioCar: PortfolioCar,
       appDesignLine: DesignLine,
-      appWaxomIdea: WaxomIdea
+      appWaxomIdea: WaxomIdea,
+      appNavigation: Navigation
     }
 }
 </script>
