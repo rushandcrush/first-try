@@ -42,6 +42,7 @@
                                 <div class="tab-content">
                                     <div class="tab-pane active container" style="padding:0;
                                                                                     margin-top: 30px" id="all">
+                                                                                     
                                         <div class="row">
                                             <div class="animated col-md">
                                                 <ul class="list">
@@ -58,26 +59,29 @@
                                                     </li>
                                                 </ul>
                                                     
-                                                <ul class="list" v-if = "show" style="margin-top: 40px">
+                                                <!-- <ul class="list" v-if = "show" style="margin-top: 40px">
                                                     <li class="list_items" style="position: relative" v-for="photo in photos" :key="photo">
                                                         <span class="descr">
-                                                            <!-- <div class="col-sm-6 col-md"> -->
-                                                                <!-- <a href="https://www.youtube.com/" target="_blank"> -->
+                                                            <div class="col-sm-6 col-md">
+                                                                <a href="https://www.youtube.com/" target="_blank">
                                                                     <img src="../PortfolioImg/Navigation/link.png" style="height: 30px; width: 30px; position: absolute; left:35%; margin-top:35%" alt="">
-                                                                <!-- </a> -->
+                                                                </a>
                                                                 <img src="../PortfolioImg/Navigation/lupa.png" style="height: 30px; width: 30px; position: absolute; left:50%; margin-top:35%" alt="">
-                                                            <!-- </div> -->
+                                                            </div>
                                                             
                                                             </span>
                                                         <img :src="photo" alt="Alt">
                                                         
                                                     </li>
-                                                </ul>
+                                                </ul> -->
                                                 <div class="form-row text-center">
                                                         <div class="col-md-12">
                                                             <button class="btn" @click="change">{{button.text}}</button>
-                                                        </div>                                                        
-                                                    </div>
+                                                            
+                                                        </div>
+                                                                                                                
+                                                    </div>                                                    
+                                                    
                                             </div>
                                             
                                             
@@ -97,11 +101,12 @@
                                         ...
                                     </div>
                                 </div>
+
                         
                   </div>
-              </div>
+              </div>                
           </div>
-      </div>
+      </div>    
   </div>
 </template>
 
@@ -215,4 +220,5 @@ img {
     line-height: 23px;
     text-transform: uppercase;
 }
+
 </style>

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from './components/Home.vue'
-import Services from './components/Services.vue'
+import Forfan from './components/Forfan.vue'
 import Portfolio from './components/Portfolio.vue'
 import Testimonial from './components/Testimonial.vue'
 import Blog from './components/Blog.vue'
@@ -12,7 +12,7 @@ Vue.use(VueRouter)
 
 const routes = [
     {path: '/', component: Home, name: 'home'},
-    {path: '/serv', component: Services, name: 'serv'},
+    {path: '/fun', component: Forfan, name: 'fun'},
     {path: '/portfolio', component: Portfolio, name: 'portfolio'},
     {path: '/test', component: Testimonial, name: 'test'},
     {path: '/blog', component: Blog, name: 'blog'},

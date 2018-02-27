@@ -18,7 +18,7 @@
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-right">
                                 <router-link to="/" tag="li" active-class="active" exact><a>Home</a></router-link>
-                                <router-link to="/serv" tag="li" active-class="active"><a>Services</a></router-link>
+                                <router-link to="/fun" tag="li" active-class="active"><a>Fun</a></router-link>
                                 <router-link to="/portfolio" tag="li" active-class="active"><a>Portfolio</a></router-link>
                                 <router-link to="/test" tag="li" active-class="active"><a>Testimonial</a></router-link>
                                 <router-link to="/blog" tag="li" active-class="active"><a>Blog</a></router-link>

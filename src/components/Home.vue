@@ -1,10 +1,10 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12">  
                 <app-car-main></app-car-main>
                     <div class="row">
-                        <div 
+                        <div  
                                 class="col-md-7" 
                                 style="margin-top:35px"
                                 >

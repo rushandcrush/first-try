@@ -5,13 +5,16 @@
                 <div 
                       class="col-md col-sm-6"
                       >
+                      
                     <ul class="Fst-bott" style="padding:0">
-                      <li><a :href="adress.home">Home</a> |</li>  
-                      <li><a :href="adress.services">Services</a> | </li>  
-                      <li><a :href="adress.portfolio">Portfolio</a> |</li>   
-                      <li><a :href="adress.testimonial">Testimonial</a> |</li>   
-                      <li><a :href="adress.blog">Blog</a> |</li>   
-                      <li><a :href="adress.contact">Contact Us</a></li> 
+                       <router-link to="/" tag="li" active-class="active"><a>Home</a></router-link>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/fun">Fun</a>
+                        </li>
+                      <router-link to="/portfolio" tag="li" active-class="active"><a>Portfolio</a></router-link>
+                      <router-link to="/test" tag="li" active-class="active"><a>Testimonial</a></router-link>
+                      <router-link to="/blog" tag="li" active-class="active"><a>Blog</a></router-link>
+                      <router-link to="/contact" tag="li" active-class="active"><a>Contact Us</a></router-link>
                     </ul>
                     <div class="col-md-12" style="padding:0">
                         <ul class="Snd-bott">
@@ -64,14 +67,6 @@
                   fb: fb,
                   inq: inq,
                   ms: ms,                  
-                },
-                adress: {
-                  home: '/',
-                  services: '/serv',
-                  portfolio: '/portfolio',
-                  testimonial: '/test',
-                  blog: '/blog',
-                  contact: '/contact'
                 },
                 socialWeb: {
                   twitT: 'https://twitter.com/',
