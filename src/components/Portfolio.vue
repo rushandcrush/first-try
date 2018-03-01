@@ -2,9 +2,9 @@
   <div class="container-fluid" style="padding:0">
     <div class="row">
       <div class="col-md-12" style="padding: 0; ">
-            
+            <div class="container-fluid" style="width:100%;padding:0">
               <div class="row" style="padding: 0">
-                  <div class="col-md-12">
+                  <div class="col-md" style="padding:0">
                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                           <ol class="carousel-indicators">
                               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -62,8 +62,9 @@
                               <span class="sr-only">Next</span>
                           </a>
                       </div>
-                       
-              </div>
+                  </div>
+                      
+                    </div>
         </div>
         <app-design-line></app-design-line>       
         <app-waxom-idea></app-waxom-idea>
@@ -162,7 +163,158 @@
             </div>
         </div>
         
+        
       </div>     
+    </div>
+    <div class="container-fluid" style="padding:0">
+        <div class="row">
+            <div class="bg-img col-md-12" style="padding:0">
+                <div class="container">
+                    <div class="row" style="; ">
+                            <div class="col-md-3" >
+                                <img src="./PortfolioComp/PortfolioImg/FooterImg/logo-01.png" style="position: absolute; z-index: 5;margin-top:60%" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="./PortfolioComp/PortfolioImg/FooterImg/logo-02.png" style="position: absolute; z-index: 5;margin-top:50%" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="./PortfolioComp/PortfolioImg/FooterImg/logo-03.png" style="position: absolute; z-index: 5;margin-top:60%" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="./PortfolioComp/PortfolioImg/FooterImg/logo-04.png" style="position: absolute; z-index: 5;margin-top:60%" alt="">
+                            </div>
+                        
+                    </div>
+                </div>           
+            
+            </div>      
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: 0;">
+        <div class="row">
+            <div class="bg-footer col-md-12">
+                <div class="container" style="margin: 80px auto; padding:0" >
+                    <div class="row">
+                            <div class="maindiv col-md">
+                                <h1 class="waxomtitle" style="padding:0; margin-bottom:30px"><img src="./PortfolioComp/PortfolioImg/LastFoot/logos22.png" alt="">Waxom</h1>
+                                <p class="footpar">Lorem ipsum dolor sit amet, 
+                                    cons-<br>ectetuer adipiscing elit, 
+                                    sed diam nonummy nibh euismod 
+                                    tincidunt ut laoreet dolore 
+                                    magna aliquam erat volutpat. 
+                                    Ut wisi enim ad minim<br> veniam, 
+                                    quis nostrud exerci suscipit 
+                                    lobortis claritatem.
+                                </p>
+                                <h6 class="readmore">Read More ></h6>
+                            </div>
+                            <div class="maindiv col-md" style="margin-top:20px">
+                                <h1 class="h1foot" style="margin-bottom:33px">
+                                    Recent Posts
+                                </h1>
+                                <p class="footpar">
+                                    <span style="color: #363636;font-family: Montserrat;font-size: 12px;font-weight: 300;line-height: 20px;">September 08, 2015</span><br>
+                                    Lorem ipsum dolor sit amet, 
+                                    consec-<br>tetuer adipiscing elit
+                                </p>
+                                <hr style="width: 270px;height: 2px;background-color: #252525;">
+                                <p class="footpar">
+                                    <span style="color: #363636;font-family: Montserrat;font-size: 12px;font-weight: 300;line-height: 20px;">
+                                    September 08, 2015</span><br>
+                                    Diam nonummy nibh euismod 
+                                    tincidunt ut laoreet dolore magna
+                                </p>
+                                <hr style="width: 270px;height: 2px;background-color: #252525;">
+                                <p class="footpar">
+                                    <span class="titlehead" style="color: #363636;font-family: Montserrat;font-size: 12px;font-weight: 300;line-height: 20px;">September 08, 2015</span><br>
+                                    Claritas est etiam processus 
+                                    dynamic-<br>us, qui sequitur mutationem 
+                                    per seac-<br>ula quarta decima
+                                </p>
+                            </div>
+                            <div class="maindiv col-md" style="margin-top:20px">
+                                <h1 class="h1foot" style="margin-bottom:30px">
+                                    Our Twitter
+                                </h1>
+                                <p class="footpar">
+                                    <span style="color: #00bff3;">@waxom</span> 
+                                    Cum soluta nobis 
+                                    eleifend option congue nihil 
+                                    imperdiet domin<br>
+                                    <span style="color: #363636;font-size: 12px;">3 min ago</span>
+                                    
+                                </p>
+                                <hr style="width: 270px;height: 2px;background-color: #252525;">
+                                <p class="footpar">
+                                    Mirum est <span style="color: #00bff3;">#envato</span> notare quam
+                                    litter gothica, quam nunc 
+                                    putamus parum anteposuerit litterarum
+                                    <br>
+                                    <span style="color: #363636;font-size: 12px;">5 hours ago</span>
+                                </p>
+                                <hr style="width: 270px;height: 2px;background-color: #252525;">
+                                <p class="footpar">
+                                    Soluta nobis option <span style="color: #959595;">bit.ly/1Hniso7</span><br>
+                                    <span style="color: #363636;font-size: 12px;">20 days ago</span>
+                                </p>
+                            </div>
+                            <div class="maindiv col-md" style="margin-top:20px;">
+                                <div class="row">
+                                <h1 class="h1foot" style="margin-left: 16px; margin-bottom:20px">
+                                    Dribbble Widget
+                                </h1>
+                                
+                                <div class="row" style="">
+                                    <div class="col-md-5" style="margin:10px;">
+                                        <img src="./PortfolioComp/PortfolioImg/LastFoot/photo22.png"  alt="">
+                                     </div>   
+                                    <div class="col-md-5" style="margin:10px;">
+                                        <img src="./PortfolioComp/PortfolioImg/LastFoot/photo (1).png"  alt="">
+                                    
+                                    </div>
+                                </div>
+                                    
+                                
+                                <div class="row">
+                                    <div class="col-md-5" style="margin:0 10px;">
+                                        <img src="./PortfolioComp/PortfolioImg/LastFoot/photo (2).png" style="margin:10px;" alt="">
+                                    </div>
+                                    <div class="col-md-5" style="margin:0 10px;">
+                                        <img src="./PortfolioComp/PortfolioImg/LastFoot/photo (3).png" style="margin:10px;" alt="">
+                                    </div>                               
+                                </div> 
+                                </div>
+                                
+                                
+                            </div>
+                                
+                        
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div class="container-fluid" style="padding:0">
+        <div class="lastfooter row d-flex align-items-center">
+            <div class="container" style="padding:0;">
+                <div class="row ">
+                    <div class="col-md">
+                        <ul>
+                            <li>Copyright © 2015 <span style="color: #959595;">Waxom</span></li>
+                            <li>Privacy Policy</li>
+                            <li style="color: #c7b299;">FAQ</li>
+                            <li>Support</li>
+                        </ul>
+                    </div>
+                    <div class="col-md" style="text-align:right; padding:0">
+                        <ul>
+                            <li>Designed by <span style="color: #959595;">ThemeFire</span></li>
+                            <li>Only on <span style="color: #959595;">Envato Market</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 </template>
@@ -203,6 +355,76 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+ul li {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+ul li:not(:last-child):after {
+  content: "|";
+  margin: 0 10px;
+  color: #252525;
+  }
+.lastfooter {
+    min-height: 111px;
+    background-color: #111111;
+}
+.footpar:hover {
+    color: #c7b299;
+}
+.readmore {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.footpar {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.waxomtitle {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+}
+.h1foot {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+}
+.bg-footer {
+    background-color: #191919;
+    min-height: 400px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.bg-img {
+    background: url('./PortfolioComp/PortfolioImg/FooterImg/landscape.png');
+    min-height: 500px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    position: relative;
+}
+.bg-img:after {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 2
+}
 hr {
     margin-top: 25px;
     width: 30px;
@@ -227,7 +449,7 @@ hr {
 }
 .brown-line2 {
     padding: 0;    
-    height: 300px;
+    min-height: 300px;
     background-color: #f4f5f8;
     background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }
@@ -274,7 +496,7 @@ h1 {
 }
 .brown-line {
     padding: 0;    
-    height: 150px;
+    min-height: 150px;
     background-color: #f4f5f8;
     background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }

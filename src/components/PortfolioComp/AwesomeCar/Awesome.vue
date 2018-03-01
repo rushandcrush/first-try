@@ -15,7 +15,7 @@
       <swiper :options="swiperOption">
         <swiper-slide>
             <div class="hover-all">
-                <img src="../PortfolioImg/AwesomeCar/photo.png" class="imgmain" alt="">
+                <img src="../PortfolioImg/AwesomeCar/picphoto.png" class="imgmain" alt="">
                 <h6 class="itemdata">30<br><span class="underdata">Sep.</span></h6> 
                 <div class="col-md textarea">
                     <h4 class="headertext">Lorem ipsum dolor sit amet</h4>
@@ -50,7 +50,7 @@
         </swiper-slide>
         <swiper-slide>
             <div class="hover-all">
-                <img src="../PortfolioImg/AwesomeCar/photo.png" alt="">
+                <img src="../PortfolioImg/AwesomeCar/picphoto.png" alt="">
                 <h6 class="itemdata">30<br><span class="underdata">Sep.</span></h6>
                 <div class="col-md textarea">
                     <h4 class="headertext">Lorem ipsum dolor sit amet</h4>
@@ -85,7 +85,7 @@
         </swiper-slide>
         <swiper-slide>
             <div class="hover-all">
-                <img src="../PortfolioImg/AwesomeCar/photo.png" alt="">
+                <img src="../PortfolioImg/AwesomeCar/picphoto.png" alt="">
                 <h6 class="itemdata">30<br><span class="underdata">Sep.</span></h6>
                 <div class="col-md textarea">
                     <h4 class="headertext">Lorem ipsum dolor sit amet</h4>
@@ -120,7 +120,7 @@
         </swiper-slide>
         <swiper-slide>
             <div class="hover-all">
-               <img src="../PortfolioImg/AwesomeCar/photo.png" alt="">                
+               <img src="../PortfolioImg/AwesomeCar/picphoto.png" alt="">                
                 <h6 class="itemdata">30<br><span class="underdata">Sep.</span></h6>
                 <div class="col-md textarea">
                     <h4 class="headertext">Lorem ipsum dolor sit amet</h4>
@@ -167,9 +167,7 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto');
-img:hover {
-  opacity: 0.5;
-}
+
 .hover-all:hover .headertext {
     color: #c7b299;
 }

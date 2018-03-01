@@ -2,47 +2,16 @@
     <div class="container">
         <div class="row" style="margin: 85px auto;">
             <div class="col-md-12" >
-                <div class="row">
+                <div class="row" style="text-align:center; padding:0">
                         <div class="col-sm-6 col-md">
                             <img 
                                 class="img-responsive center-block"
                                 :src="pictures.pen" 
                                 alt="First picture" 
-                                style="width: 51px;
-                                        height: 51px" 
-                                    >                        
-                        </div>
-                        <div class="col-sm-6 col-md">
-                            <img 
-                                class="img-responsive center-block"
-                                :src="pictures.paper" 
-                                alt="Second picture" 
                                 style="width: 46px;
-                                        height: 42px"
+                                        height: 46px" 
                                     >
-                            
-                        </div>
-                        <div class="col-sm-6 col-md">
-                            <img
-                                class="img-responsive center-block" 
-                                :src="pictures.option" 
-                                alt="Third picture" 
-                                style="width: 46px;
-                                        height: 46px"
-                                >
-                        </div>
-                        <div class="col-sm-6 col-md">
-                            <img 
-                                class="img-responsive center-block"
-                                :src="pictures.folder" 
-                                alt="Fourth picture" 
-                                style="width: 55px;
-                                        height: 38px"
-                                >
-                        </div>
-                </div>
-                <div class="row" style="text-align: center">
-                    <div class="col-md">
+                                <div class="col-md">
                         <h4>
                             Web & App Design
                         </h4>
@@ -51,8 +20,17 @@
                             congue nihil imperdiet doming id quod mazim.
                         </p>
                         <hr>
+                        </div>                    
                         </div>
-                    <div class="col-md">
+                        <div class="col-sm-6 col-md">
+                            <img 
+                                class="img-responsive center-block"
+                                :src="pictures.paper" 
+                                alt="Second picture" 
+                                style="width: 46px;
+                                        height: 46px"
+                                    >
+                            <div class="col-md">
                         <h4 style="color: #c7b299;">
                             Development
                         </h4>
@@ -62,7 +40,17 @@
                         </p>
                         <hr style="background-color: #c7b299;">
                     </div>
-                    <div class="col-md">
+                        </div>
+                        <div class="col-sm-6 col-md">
+                            <img
+                                class="img-responsive center-block" 
+                                :src="pictures.option" 
+                                alt="Third picture" 
+                                style="width: 46px;
+                                        height: 46px;
+                                        color: #555555;"
+                                >
+                                <div class="col-md">
                         <h4>Customization</h4>
                         <p>
                             Nam liber tempor cum soluta nobis eleifend option
@@ -70,7 +58,17 @@
                         </p>
                         <hr>
                     </div>
-                    <div class="col-md">
+                        </div>
+                        <div class="col-sm-6 col-md">
+                            <img 
+                                class="img-responsive center-block"
+
+                                :src="pictures.folder" 
+                                alt="Fourth picture" 
+                                style="width: 46px;
+                                        height: 46px;"
+                                >
+                            <div class="col-md">
                         <h4>
                             Marketing
                         </h4>
@@ -79,7 +77,14 @@
                             congue nihil imperdiet doming id quod mazim.
                         </p>
                         <hr>
-                    </div>
+                    </div>    
+                        </div>
+                </div>
+                <div class="row" style="text-align: center">
+                    >
+                    
+                    
+                    
                 </div>              
             </div>
         </div>
