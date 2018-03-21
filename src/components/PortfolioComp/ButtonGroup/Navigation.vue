@@ -59,7 +59,7 @@
                                                     </li>
                                                 </ul>
                                                     
-                                                <!-- <ul class="list" v-if = "show" style="margin-top: 40px">
+                                                <!-- <ul class="list" v-show = "show" style="margin-top: 40px">
                                                     <li class="list_items" style="position: relative" v-for="photo in photos" :key="photo">
                                                         <span class="descr">
                                                             <div class="col-sm-6 col-md">
@@ -187,8 +187,6 @@ img {
     margin-top: 30px;
     margin: 10px;
     height: 327px;
-    /* filter: grayscale(0);
-    transition: 1s; */
 }
 .descr {
     position: absolute;
@@ -201,7 +199,6 @@ img {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
-    /* background-image: url('../PortfolioImg/Navigation/link.png') no-repeat; */
 }
 .animated li:hover .descr {
     opacity: 1;

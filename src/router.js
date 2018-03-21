@@ -11,9 +11,9 @@ import Contact from './components/Contact.vue'
 Vue.use(VueRouter)
 
 const routes = [
-    {path: '/', component: Home, name: 'home'},
+    {path: '/', component: Portfolio, name: 'home'},
     {path: '/fun', component: Forfan, name: 'fun'},
-    {path: '/portfolio', component: Portfolio, name: 'portfolio'},
+    {path: '/home', component: Home, name: 'portfolio'},
     {path: '/test', component: Testimonial, name: 'test'},
     {path: '/blog', component: Blog, name: 'blog'},
     {path: '/contact', component: Contact, name: 'contact'},

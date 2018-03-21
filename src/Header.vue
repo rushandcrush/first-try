@@ -5,24 +5,24 @@
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <router-link to='/' class="navbar-brand" style="cursor: pointer">Corporatix<br>
+                            <b-nav-item to='/' class="navbar-brand" style="cursor: pointer">Corporatix<br>
                                 <span 
                                     style="font-size:15px;
                                     letter-spacing: -0.9px;
                                     text-align: center"
                                         >Corporate business PSD Template
                                 </span>
-                            </router-link>
+                            </b-nav-item>
                         </div>
 
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-right">
-                                <router-link to="/" tag="li" active-class="active" exact><a>Home</a></router-link>
-                                <router-link to="/fun" tag="li" active-class="active"><a>Fun</a></router-link>
-                                <router-link to="/portfolio" tag="li" active-class="active"><a>Portfolio</a></router-link>
-                                <router-link to="/test" tag="li" active-class="active"><a>Testimonial</a></router-link>
-                                <router-link to="/blog" tag="li" active-class="active"><a>Blog</a></router-link>
-                                <router-link to="/contact" tag="li" active-class="active"><a>Contact Us</a></router-link>
+                                <b-nav-item to="/" tag="li" active-class="active" exact><a>Home</a></b-nav-item>
+                                <b-nav-item to="/fun" tag="li" active-class="active"><a>Fun</a></b-nav-item>
+                                <b-nav-item to="/home" tag="li" active-class="active"><a>Portfolio</a></b-nav-item>
+                                <b-nav-item to="/test" tag="li" active-class="active"><a>Testimonial</a></b-nav-item>
+                                <b-nav-item to="/blog" tag="li" active-class="active"><a>Blog</a></b-nav-item>
+                                <b-nav-item to="/contact" tag="li" active-class="active"><a>Contact Us</a></b-nav-item>
                             </ul>
                         </div>
                     </div>

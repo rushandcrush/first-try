@@ -7,11 +7,11 @@
                       >
                       
                     <ul class="Fst-bott" style="padding:0">
-                       <router-link to="/" tag="li" active-class="active"><a>Home</a></router-link>
+                       <router-link to="/" tag="li" active-class="active"><a>Portfolio</a></router-link>
                         <li class="nav-item">
                           <a class="nav-link" href="/fun">Fun</a>
                         </li>
-                      <router-link to="/portfolio" tag="li" active-class="active"><a>Portfolio</a></router-link>
+                      <router-link to="/home" tag="li" active-class="active"><a>Home</a></router-link>
                       <router-link to="/test" tag="li" active-class="active"><a>Testimonial</a></router-link>
                       <router-link to="/blog" tag="li" active-class="active"><a>Blog</a></router-link>
                       <router-link to="/contact" tag="li" active-class="active"><a>Contact Us</a></router-link>
